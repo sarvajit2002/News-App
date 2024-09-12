@@ -1,0 +1,56 @@
+/* Navbar custom styles */
+.navbar {
+    padding: 15px 30px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-brand:hover {
+    color: #007bff;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.active-link {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-radius: 5px;
+}
+
+/* Add a subtle shadow to the navbar */
+.navbar-light {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+}
